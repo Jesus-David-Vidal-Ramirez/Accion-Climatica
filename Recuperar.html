@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Recuperar Contraseña</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="Actualizar.php" method="POST">
+					<span class="login100-form-title p-b-34">
+						Recuperar Contraseña
+					</span>
+					
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						
+						<input class="input100" type="text" name="usuario" placeholder="Usuario" required="">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						
+						<input class="input100" type="Password" name="clave" placeholder="*************"  required="">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						
+						<input class="input100" type="text" name="correo" placeholder="Correo" required="">
+						<span class="focus-input100" ></span>
+					</div>
+					
+						<br>
+					<br>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Recuperar contraseña
+						</button>
+					</div>
+					
+				</form>
+
+				<div class="login100-more" style="background-image: url('images/bg-01.jpg');"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<div id="dropDownSelect1"></div>
+	<footer>
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-columna">
+          <h3>Direccion</h3>
+          <span><p align="center">  Sincelejo - Sucre</p></span>
+          </div>
+          <div class="footer-columna">
+          <h3>Telefonos</h3>
+          <span><p align="center"> +57 301 787 04 91 <br> +57 313 520 17 43 <br> </p></span>
+          
+          </div>
+          <div class="footer-columna">
+            <h3>Sobre Nosotros</h3>
+            <p align="justify">“RIKLINSUS” es un organismo de derecho privado sin ánimo de lucro, entidad recreativa, de libre inscripción y sin subordinación laboral de sus asociados, con personería jurídica reconocido por resolución Nº 231 emanada Gobernación de Sucre.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copy-redes">
+  <div class="footer-copy">
+    <p class="copy" align="center">Riklinsus &copy; Personería Jurídica 231 de marzo 28/78 Resolución de marzo/2007 Nit 900166175-8</p></div>
+  </div>
+  </footer>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
